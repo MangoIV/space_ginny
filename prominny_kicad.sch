@@ -375,9 +375,9 @@ Wire Wire Line
 Connection ~ 6500 2400
 Wire Wire Line
 	6500 2400 7000 2400
-Text GLabel 3500 3500 0    50   Input ~ 0
+Text GLabel 6100 6650 0    50   Input ~ 0
 sda
-Text GLabel 3500 4000 0    50   Input ~ 0
+Text GLabel 6100 7150 0    50   Input ~ 0
 scl
 Text GLabel 3300 2100 2    50   Input ~ 0
 A3
@@ -425,64 +425,220 @@ $EndComp
 $Comp
 L power:VCC #PWR?
 U 1 1 5F93DF4B
-P 4000 3500
-F 0 "#PWR?" H 4000 3350 50  0001 C CNN
-F 1 "VCC" H 4015 3673 50  0000 C CNN
-F 2 "" H 4000 3500 50  0001 C CNN
-F 3 "" H 4000 3500 50  0001 C CNN
-	1    4000 3500
+P 6600 6650
+F 0 "#PWR?" H 6600 6500 50  0001 C CNN
+F 1 "VCC" H 6615 6823 50  0000 C CNN
+F 2 "" H 6600 6650 50  0001 C CNN
+F 3 "" H 6600 6650 50  0001 C CNN
+	1    6600 6650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR?
 U 1 1 5F93E60B
-P 4000 4000
-F 0 "#PWR?" H 4000 3850 50  0001 C CNN
-F 1 "VCC" H 4015 4173 50  0000 C CNN
-F 2 "" H 4000 4000 50  0001 C CNN
-F 3 "" H 4000 4000 50  0001 C CNN
-	1    4000 4000
+P 6600 7150
+F 0 "#PWR?" H 6600 7000 50  0001 C CNN
+F 1 "VCC" H 6615 7323 50  0000 C CNN
+F 2 "" H 6600 7150 50  0001 C CNN
+F 3 "" H 6600 7150 50  0001 C CNN
+	1    6600 7150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3500 3500 3600 3500
+	6100 6650 6200 6650
 Wire Wire Line
-	3500 4000 3600 4000
+	6100 7150 6200 7150
 $Comp
 L Device:R_Small R?
 U 1 1 5F944BD1
-P 3700 4000
-F 0 "R?" V 3504 4000 50  0000 C CNN
-F 1 "4.7k" V 3595 4000 50  0000 C CNN
-F 2 "" H 3700 4000 50  0001 C CNN
-F 3 "~" H 3700 4000 50  0001 C CNN
-	1    3700 4000
+P 6300 7150
+F 0 "R?" V 6104 7150 50  0000 C CNN
+F 1 "4.7k" V 6195 7150 50  0000 C CNN
+F 2 "" H 6300 7150 50  0001 C CNN
+F 3 "~" H 6300 7150 50  0001 C CNN
+	1    6300 7150
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5F945A1E
-P 3700 3500
-F 0 "R?" V 3504 3500 50  0000 C CNN
-F 1 "4.7k" V 3595 3500 50  0000 C CNN
-F 2 "" H 3700 3500 50  0001 C CNN
-F 3 "~" H 3700 3500 50  0001 C CNN
-	1    3700 3500
+P 6300 6650
+F 0 "R?" V 6104 6650 50  0000 C CNN
+F 1 "4.7k" V 6195 6650 50  0000 C CNN
+F 2 "" H 6300 6650 50  0001 C CNN
+F 3 "~" H 6300 6650 50  0001 C CNN
+	1    6300 6650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3800 3500 4000 3500
+	6400 6650 6600 6650
 Wire Wire Line
-	3800 4000 4000 4000
+	6400 7150 6600 7150
 $Comp
 L Device:Jumper_NO_Small JP?
 U 1 1 5F94E6CB
-P 4650 4100
-F 0 "JP?" H 4650 4285 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 4650 4194 50  0000 C CNN
-F 2 "" H 4650 4100 50  0001 C CNN
-F 3 "~" H 4650 4100 50  0001 C CNN
-	1    4650 4100
+P 6500 5100
+F 0 "JP?" H 6500 5285 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6500 5194 50  0000 C CNN
+F 2 "" H 6500 5100 50  0001 C CNN
+F 3 "~" H 6500 5100 50  0001 C CNN
+	1    6500 5100
 	1    0    0    -1  
 $EndComp
+$Comp
+L SSD1306-128x64_OLED:SSD1306 Brd?
+U 1 1 5F954526
+P 7250 5150
+F 0 "Brd?" V 7296 4872 50  0000 R CNN
+F 1 "SSD1306" V 7205 4872 50  0000 R CNN
+F 2 "" H 7250 5400 50  0001 C CNN
+F 3 "" H 7250 5400 50  0001 C CNN
+	1    7250 5150
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6000 5000 0    50   Input ~ 0
+sda
+Text GLabel 6000 5100 0    50   Input ~ 0
+scl
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 5F967B39
+P 6500 5000
+F 0 "JP?" H 6500 5185 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6500 5094 50  0000 C CNN
+F 2 "" H 6500 5000 50  0001 C CNN
+F 3 "~" H 6500 5000 50  0001 C CNN
+	1    6500 5000
+	1    0    0    -1  
+$EndComp
+Text GLabel 6000 5300 0    50   Input ~ 0
+ground
+Text GLabel 6000 5200 0    50   Input ~ 0
+power
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 5F985423
+P 6500 5200
+F 0 "JP?" H 6500 5385 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6500 5294 50  0000 C CNN
+F 2 "" H 6500 5200 50  0001 C CNN
+F 3 "~" H 6500 5200 50  0001 C CNN
+	1    6500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 5F985958
+P 6500 5300
+F 0 "JP?" H 6500 5485 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6500 5394 50  0000 C CNN
+F 2 "" H 6500 5300 50  0001 C CNN
+F 3 "~" H 6500 5300 50  0001 C CNN
+	1    6500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 5F98B0FF
+P 6500 5600
+F 0 "JP?" H 6500 5785 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6500 5694 50  0000 C CNN
+F 2 "" H 6500 5600 50  0001 C CNN
+F 3 "~" H 6500 5600 50  0001 C CNN
+	1    6500 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 5F98B105
+P 6500 5500
+F 0 "JP?" H 6500 5685 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6500 5594 50  0000 C CNN
+F 2 "" H 6500 5500 50  0001 C CNN
+F 3 "~" H 6500 5500 50  0001 C CNN
+	1    6500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 5F98B10B
+P 6500 5700
+F 0 "JP?" H 6500 5885 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6500 5794 50  0000 C CNN
+F 2 "" H 6500 5700 50  0001 C CNN
+F 3 "~" H 6500 5700 50  0001 C CNN
+	1    6500 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 5F98B111
+P 6500 5800
+F 0 "JP?" H 6500 5985 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6500 5894 50  0000 C CNN
+F 2 "" H 6500 5800 50  0001 C CNN
+F 3 "~" H 6500 5800 50  0001 C CNN
+	1    6500 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 5000 6400 5000
+Wire Wire Line
+	6000 5100 6400 5100
+Wire Wire Line
+	6000 5200 6400 5200
+Wire Wire Line
+	6000 5300 6400 5300
+Wire Wire Line
+	6600 5000 6650 5000
+Wire Wire Line
+	6600 5100 6700 5100
+Wire Wire Line
+	6600 5200 6750 5200
+Wire Wire Line
+	6600 5300 6800 5300
+Wire Wire Line
+	6600 5500 6650 5500
+Wire Wire Line
+	6650 5500 6650 5000
+Connection ~ 6650 5000
+Wire Wire Line
+	6650 5000 6900 5000
+Wire Wire Line
+	6600 5600 6700 5600
+Wire Wire Line
+	6700 5600 6700 5100
+Connection ~ 6700 5100
+Wire Wire Line
+	6700 5100 6900 5100
+Wire Wire Line
+	6600 5700 6750 5700
+Wire Wire Line
+	6750 5700 6750 5200
+Connection ~ 6750 5200
+Wire Wire Line
+	6750 5200 6900 5200
+Wire Wire Line
+	6600 5800 6800 5800
+Wire Wire Line
+	6800 5800 6800 5300
+Connection ~ 6800 5300
+Wire Wire Line
+	6800 5300 6900 5300
+Text GLabel 6000 5500 0    50   Input ~ 0
+ground
+Text GLabel 6000 5600 0    50   Input ~ 0
+power
+Text GLabel 6000 5700 0    50   Input ~ 0
+scl
+Text GLabel 6000 5800 0    50   Input ~ 0
+sda
+Wire Wire Line
+	6000 5500 6400 5500
+Wire Wire Line
+	6000 5600 6400 5600
+Wire Wire Line
+	6000 5700 6400 5700
+Wire Wire Line
+	6000 5800 6400 5800
 $EndSCHEMATC

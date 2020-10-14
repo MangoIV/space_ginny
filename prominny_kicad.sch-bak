@@ -474,4 +474,15 @@ Wire Wire Line
 	3800 3500 4000 3500
 Wire Wire Line
 	3800 4000 4000 4000
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 5F94E6CB
+P 4650 4100
+F 0 "JP?" H 4650 4285 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4650 4194 50  0000 C CNN
+F 2 "" H 4650 4100 50  0001 C CNN
+F 3 "~" H 4650 4100 50  0001 C CNN
+	1    4650 4100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
