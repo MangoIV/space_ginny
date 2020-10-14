@@ -4,3 +4,9 @@
 [submodule "Keebio-Parts.pretty"]
 	path = Keebio-Parts.pretty
 	url = https://github.com/keebio/Keebio-Parts.pretty.git
+[submodule "random-keyboard-parts.pretty"]
+	path = random-keyboard-parts.pretty
+	url = https://github.com/ai03-2725/random-keyboard-parts.pretty
+[submodule "KiCad-SSD1306-128x64"]
+	path = KiCad-SSD1306-128x64
+	url = https://github.com/pforrmi/KiCad-SSD1306-128x64.git
