@@ -1,4 +1,4 @@
-18864459288142535
+18870870505360730
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -55955,7 +55955,7 @@ WS2812B
 
 
 0
-4
+8
 4
 Keebio-Parts
 breakaway-hole
@@ -83075,3 +83075,31 @@ varistor SIOV
 0
 2
 2
+other_parts
+CherryMX_Choc_1u
+
+
+0
+4
+2
+other_parts
+CherryMX_Choc_1u_reversible
+
+
+0
+7
+2
+other_parts
+MJ-4PP-9
+
+
+0
+8
+4
+other_parts
+ProMicro
+
+
+0
+48
+24
