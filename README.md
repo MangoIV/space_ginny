@@ -1,4 +1,4 @@
-# prominny
+# space_ginny
 ## What is this?
 This is basically a ginny clone. Ginny is a hackable asetniop input device by Germ distributed on gboards.ca with closed source hardware and open source software.
 
