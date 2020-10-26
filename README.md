@@ -2,8 +2,8 @@
 ## What is this?
 This is basically a ginny clone. Ginny is a hackable asetniop input device by Germ distributed on gboards.ca with closed source hardware and open source software.
 
-![picture 4](https://github.com/MangoIV/space_ginny/blob/master/pictures/space_ginny_04.jpg "picture 4")
-![picture 2](https://github.com/MangoIV/space_ginny/blob/master/pictures/space_ginny_02.jpg "picture 2")
+![picture 4](https://github.com/MangoIV/space_ginny/blob/main/pictures/space_ginny_04.jpg"picture 4")
+![picture 2](https://github.com/MangoIV/space_ginny/blob/main/pictures/space_ginny_02.jpg"picture 2")
 
 ## Who is this for?
 This is for all the people who can't afford shipping from canada or want an OLED or a custom pcb colour on their ginny. 
